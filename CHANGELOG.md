@@ -1,3 +1,10 @@
+## 0.1.3
+
+- Add `toList()` method.
+  - Add unit tests relative to this method.
+- Add `toString()` override.
+  - Add respective unit test.
+
 ## 0.1.2
 
 - Rename source file.
