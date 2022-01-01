@@ -1,4 +1,4 @@
-import 'package:tuple8/tuple.dart';
+import 'package:tuple8/tuple8.dart';
 import 'package:test/test.dart';
 
 void main() {
