@@ -5,12 +5,16 @@ void main() {
   group('Tuple<int, double> tests', () {
     final tuple = Tuple(1, 1.0);
 
-    test('Evaluate integer value', () {
-      expect(tuple.get<int>(), 1);
-    });
+    test('Evaluate integer value', () => expect(tuple.get<int>(), 1));
 
-    test('Evaluate double value', () {
-      expect(tuple.get<double>(), 1.0);
+    test('Evaluate double value', () => expect(tuple.get<double>(), 1.0));
+
+    test('Evaluate String value', () => expect(tuple.get<String>(), null));
+  });
+
+  group('Tuple<int, int> tests', () {
+    test('Declaring same type tuple', () {
+      expect(() => Tuple(1, 1), throwsA(isA<AssertionError>()));
     });
   });
 }
