@@ -1,3 +1,9 @@
+## 0.1.4
+
+- Add `equality` operator.
+  - Add unit tests relative to this method.
+- Implement necessary `hashCode` getter.
+
 ## 0.1.3
 
 - Add `toList()` method.

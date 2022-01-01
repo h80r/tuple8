@@ -25,4 +25,12 @@ class Tuple<F, S> {
 
   @override
   String toString() => '($_first, $_second)';
+
+  @override
+  bool operator ==(Object other) {
+    return other is Tuple && _first == other._first && _second == other._second;
+  }
+
+  @override
+  int get hashCode => Object.hash(_first, _second);
 }

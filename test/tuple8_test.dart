@@ -32,4 +32,24 @@ void main() {
       expect(() => Tuple(1, 1), throwsA(isA<AssertionError>()));
     });
   });
+
+  group('[Tuple equality]', () {
+    final newTuple = Tuple(1, 1.0);
+
+    test('Comparing equal tuples', () {
+      expect(tuple == newTuple, true);
+    });
+
+    test('Comparing a tuple with it\'s copyWith without arguments', () {
+      expect(tuple == tuple.copyWith(), true);
+    });
+
+    test('Comparing a tuple with it\'s copyWith with arguments', () {
+      expect(tuple == tuple.copyWith(first: 2, second: 1.0), false);
+    });
+
+    test('Comparing a tuple with it\'s copy passing the original values', () {
+      expect(tuple == tuple.copyWith(first: 1, second: 1.0), true);
+    });
+  });
 }
