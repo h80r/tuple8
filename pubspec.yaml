@@ -1,14 +1,11 @@
 name: tuple8
-description: A Tuple implementation with a different accessing method.
-version: 0.1.4+5
-# homepage: https://www.example.com
+description: A Tuple implementation with a new accessing method.
+version: 0.1.5+6
+homepage: https://github.com/h80r
+repository: https://github.com/h80r/tuple8
 
 environment:
   sdk: '>=2.15.1 <3.0.0'
-
-
-# dependencies:
-#   path: ^1.8.0
 
 dev_dependencies:
   lints: ^1.0.0

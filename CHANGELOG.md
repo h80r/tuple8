@@ -1,3 +1,11 @@
+## 0.1.5
+
+- Add documentation.
+- Update `README.md`.
+- Update `pubspec.yaml`.
+- Rename package file.
+- Add license file.
+
 ## 0.1.4
 
 - Add `equality` operator.

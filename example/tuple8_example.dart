@@ -1,4 +1,4 @@
-import 'package:tuple8/tuple8.dart';
+import 'package:tuple8/tuple.dart';
 
 void main() {
   final tuple = Tuple(1, 1.0);

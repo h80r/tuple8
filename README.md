@@ -1,39 +1,29 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This package implements a new approach to Tuples in dart, getting values by type on a getter method.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- 2-tuple implementation;
+- Getting values by type;
+- Easy usage without external dependencies;
+- Unit-tested code;
+- Clear documentation;
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Simply add this dependency to your `pubpec.yaml` or use _dart/flutter_ `pub add` CLI.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
-const like = 'sample';
+import 'package:tuple8/tuple.dart';
+
+// [ Unrelated Code ]
+
+  final tuple = Tuple(1, 1.0);
+  
+// [ Unrelated Code ]
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Initially I don't plan on expanding this package to cover 3-tuples, 4-tuples... But if there is an interest, I will update and add new features.
