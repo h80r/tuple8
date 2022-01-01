@@ -1,6 +1,6 @@
 name: tuple8
-description: A starting point for Dart libraries or applications.
-version: 0.0.0+0
+description: A Tuple implementation with a different accessing method.
+version: 0.1.0+1
 # homepage: https://www.example.com
 
 environment:

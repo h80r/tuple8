@@ -1,6 +1,7 @@
 import 'package:tuple8/tuple8.dart';
 
 void main() {
-  var awesome = Awesome();
-  print('awesome: ${awesome.isAwesome}');
+  final tuple = Tuple(1, 1.0);
+  print('Tuple int: ${tuple.get<int>()}');
+  print('Tuple double: ${tuple.get<double>()}');
 }
