@@ -1,6 +1,6 @@
 name: tuple8
 description: A Tuple implementation with a different accessing method.
-version: 0.1.1+2
+version: 0.1.2+3
 # homepage: https://www.example.com
 
 environment:
