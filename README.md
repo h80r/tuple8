@@ -1,4 +1,5 @@
 This package implements a new approach to Tuples in dart, getting values by type on a getter method.
+See on [pub.dev](https://pub.dev/packages/tuple8)!
 
 ## Features
 
